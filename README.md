@@ -26,9 +26,10 @@
 
 - [ReactJs](https://reactjs.org) - A JavaScript library for building user interfaces
 Android, iOS, and web apps
-- [SQLite3](https://www.sqlite.org) - DB Connector
-MSSQL, MySQL, MariaDB, SQLite3, Oracle, and Amazon Redshift
+- [Local Storage]()
 - [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and NodeJs
+- [Github API]() -
+- [Styled Components]() -
 
 
 
