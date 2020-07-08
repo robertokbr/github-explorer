@@ -74,7 +74,7 @@ export const Repositories = styled.div`
     transition: transform 0.2s;
 
     &:hover {
-      transform: scale(1.3);
+      transform: scale(1.1);
     }
 
     & + a {
