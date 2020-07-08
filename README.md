@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://raw.githubusercontent.com/robertokbr/GithubExplorer/master/.Github/octo.png" width="100px" /><br>
+    <img src="https://github.com/robertokbr/GithubExplorer/blob/master/.Github/octoJones.png" width="150px" /><br>
     <br>
   Github Explorer
 </h1>
