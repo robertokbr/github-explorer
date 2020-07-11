@@ -23,6 +23,7 @@
   </a>
 </p>
 
+<img src="https://github.com/robertokbr/GithubExplorer/blob/master/.Github/example.gif"/>
 
 - [ReactJs](https://reactjs.org) - A JavaScript library for building user interfaces
 Android, iOS, and web apps
