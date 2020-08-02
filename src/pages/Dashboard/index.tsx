@@ -1,6 +1,7 @@
 import React, { useState, FormEvent, useEffect } from 'react';
 import { FiChevronRight } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import { Title, Form, Repositories, Error } from './styles';
 import logoImg from '../../assets/logo.svg';
 import api from '../../services/api';
@@ -70,20 +71,22 @@ const Dashboard: React.FC = () => {
 
       <Repositories>
         {repositories.map(repository => (
-          <Link
-            to={`/repository/${repository.full_name}`}
-            key={repository.full_name}
-          >
-            <img
-              src={repository.owner.avatar_url}
-              alt={repository.owner.login}
-            />
-            <div>
-              <strong>{repository.full_name}</strong>
-              <p>{repository.description}</p>
-            </div>
-            <FiChevronRight size={20} />
-          </Link>
+          <motion.div animate={{ scale: 2 }}>
+            <Link
+              to={`/repository/${repository.full_name}`}
+              key={repository.full_name}
+            >
+              <img
+                src={repository.owner.avatar_url}
+                alt={repository.owner.login}
+              />
+              <div>
+                <strong>{repository.full_name}</strong>
+                <p>{repository.description}</p>
+              </div>
+              <FiChevronRight size={20} />
+            </Link>
+          </motion.div>
         ))}
       </Repositories>
     </>
